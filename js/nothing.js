@@ -25,7 +25,7 @@ $(document).keypress(function(){
        $("#remind").fadeTo(6000,0);
     });
 //hiding the inital instruction to relax, and also hiding the second bit of dialouge
-$("#d1").fadeTo(6000,0);
+$("#d1").fadeTo(10000,0);
 
  setTimeout(function () {
       
