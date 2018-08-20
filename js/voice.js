@@ -15,7 +15,7 @@ var voice = 'UK English Male';
 
 // The parameters for the voice in an object
 var voiceParameters = {
-  pitch: 5,
+  pitch: 3,
   rate: 1,
   volume: 1
 }
