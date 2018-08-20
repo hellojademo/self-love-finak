@@ -57,7 +57,7 @@ $(document).ready(function(){
 
     setTimeout(function () {
       $("#div2").show();
-    },10000);
+    },30000);
     
     $(".talk").show();
     $("#drag").show();
