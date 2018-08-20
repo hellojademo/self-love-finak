@@ -2,6 +2,7 @@ $(document).ready(function(){
 
 $("#relax").hide();
 $("#move").hide();
+$("#stress1").hide();
 
 
 //The function which increases the word RELAX with a key press
@@ -37,15 +38,26 @@ $("#d1").fadeTo(6000,0);
 $("#d2").hide();
 $(".d2").hide();
 
+//second bit of dialouge+ stress commandments
+
+
  setTimeout(function () {
       
+      $("#stress1").fadeTo(2000,1);
+      
+     
+       
+    },10000);
+
+  setTimeout(function () {
+      $("#stress1").hide();
       $("#d2").fadeTo(3000,1);
       $(".d2").fadeTo(3000,1);
      
        
-    },25000);
+    },20000);
 
-//mousemove funtion
+//mousemove function
 $(document).mousemove(function() {
     $("#move").show();
    $("#move").fadeTo(2000,0);
