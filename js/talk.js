@@ -70,14 +70,7 @@ function affirm () {
     },10000);
 
    
-   
-  // else {
-  //   // If they didn't say 'something', they got it wrong, make
-  //   // the page red
-  //   $('body').css({
-  //     'background-color': 'red'
-  //   })
-  // }
+
 
   gameOver = true;
 }

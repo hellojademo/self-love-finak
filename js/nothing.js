@@ -47,7 +47,7 @@ $(".d2").hide();
       
      
        
-    },10000);
+    },40000);
 
   setTimeout(function () {
       $("#stress1").hide();
@@ -55,7 +55,7 @@ $(".d2").hide();
       $(".d2").fadeTo(3000,1);
      
        
-    },20000);
+    },60000);
 
 //mousemove function
 $(document).mousemove(function() {
